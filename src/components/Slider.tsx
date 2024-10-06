@@ -1,24 +1,3 @@
-// import React from "react";
-// import Image from "next/image";
-
-// const Slider = () => {
-//   return (
-//     <div className="flex flex-col h-screen">
-//       {/*TEXT CONTAINER*/}
-//       <div className="h-1/2 relative">
-//         <h1 className="">testing</h1>
-//         <button className=""> Explore</button>
-//       </div>
-//       {/*IMAGE CONTAINER*/}
-//       <div className="h-1/2 w-full">
-//         <Image src="/slider1.png" alt="" fill />
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Slider;
-
 "use client";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
