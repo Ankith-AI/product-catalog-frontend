@@ -11,7 +11,7 @@ const Featured = () => {
         {featuredProducts.map((item) => (
           <div
             key={item.id}
-            className="w-screen h-[120vh] flex flex-col items-center justify-around p-4 hover:bg-stone-100 transition-all duration-300 md:w-[50vw] xl:w-[33vw] xl:h-[90vh]"
+            className="w-screen h-[80vh] flex flex-col items-center justify-around p-4 hover:bg-stone-100 transition-all duration-300 md:w-[50vw] xl:w-[33vw] xl:h-[90vh]"
           >
             {/* IMAGE CONTAINER */}
             {item.img && (
