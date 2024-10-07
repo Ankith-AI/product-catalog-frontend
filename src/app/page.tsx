@@ -1,5 +1,5 @@
 import Featured from "@/components/Featured";
-import Slider from "@/components/slider";
+import Slider from "@/components/Slider";
 
 export default function Home() {
   return (

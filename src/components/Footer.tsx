@@ -7,7 +7,7 @@ const Footer = () => {
       <Link href="/" className="font-bold text-xl">
         CELLISTER
       </Link>
-      <p>Copyright © 2024, Ankith-AI. All Rights Reserved.</p>
+      <p className="p-8">Copyright © 2024, Ankith-AI. All Rights Reserved.</p>
     </div>
   );
 };
