@@ -1,0 +1,114 @@
+{
+  "users": [
+    {
+      "id": "6932",
+      "email": "ankith+1@datalabscorp.com",
+      "username": "ankith",
+      "firstname": "Ankith",
+      "lastname": "S",
+      "number": "7396292311",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "country": "india",
+      "password": "99Ankith99!",
+      "userType": "Consumer"
+    },
+    {
+      "id": "cc60",
+      "email": "ankith+22@datalabscorp.com",
+      "username": "Ank",
+      "firstname": "Ankit",
+      "lastname": "S",
+      "number": "7396292311",
+      "city": "Hyd",
+      "state": "TG",
+      "country": "IN",
+      "password": "99Ankith99!",
+      "userType": "Consumer"
+    },
+    {
+      "id": "ba1a",
+      "email": "ankith+10@datalabscorp.com",
+      "username": "Ank10",
+      "firstname": "Ankith",
+      "lastname": "P",
+      "number": "9876543211",
+      "city": "Hyd",
+      "state": "TG",
+      "country": "IN",
+      "password": "99Ankith99!",
+      "userType": "Consumer"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "title": "Samsung Galaxy S23",
+      "price": 60000,
+      "description": "The device has a 6.1-inch FHD+ display with a 120 Hz refresh rate, 8GB RAM, and 128GB storage, powered by a Snapdragon 8 Gen 2 processor. It features a 50 MP + 10 MP + 12 MP triple rear camera, a 12 MP front camera, a 3900 mAh battery, and a fingerprint sensor.",
+      "category": "S",
+      "image": "/s23.png",
+      "rating": {
+        "rate": 4.5,
+        "count": 1204
+      }
+    },
+    {
+      "id": "2",
+      "title": "Samsung Galaxy S24+",
+      "price": 80000,
+      "description": "The device features a 6.7-inch Dynamic AMOLED 2X display with a 120 Hz refresh rate, 12GB RAM, 512GB storage, and is powered by the Samsung Exynos 2400 deca-core processor.",
+      "category": "Plus",
+      "image": "/s24plus.png",
+      "rating": {
+        "rate": 3.9,
+        "count": 906
+      }
+    },
+    {
+      "id": "3",
+      "title": "Samsung Galaxy S24 Ultra",
+      "price": 100000,
+      "description": "The device features a 6.8-inch Dynamic AMOLED 2X display with a 120 Hz refresh rate, powered by a Qualcomm Snapdragon 8 Gen 3 processor, 12GB RAM, and 256GB storage.",
+      "category": "Ultra",
+      "image": "/s24u.png",
+      "rating": {
+        "rate": 4.8,
+        "count": 603
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "8505",
+      "name": "Ankith",
+      "email": "ankith@ankith.com",
+      "message": "Test Message!",
+      "attachmentURL": ""
+    },
+    {
+      "id": "9ae7",
+      "name": "Ankith",
+      "email": "ankith@ankith.com",
+      "message": "Test2",
+      "attachmentURL": ""
+    }
+  ],
+  "orders": [
+    {
+      "id": "fc03",
+      "items": [
+        {
+          "id": "3",
+          "title": "Samsung Galaxy S24 Ultra",
+          "price": 1199,
+          "quantity": 1
+        }
+      ],
+      "total": 1199,
+      "date": "2024-10-14T10:29:08.608Z",
+      "userEmail": "ankith+10@datalabscorp.com",
+      "status": "Placed"
+    }
+  ]
+}
