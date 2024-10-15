@@ -82,7 +82,9 @@ export default function CartPage() {
       <Container>
         <h1 className="mb-6 text-3xl font-bold">Your Cart</h1>
         {cart.length === 0 ? (
-          <p>Your cart is empty.</p>
+          <p className="flex h-32 items-center justify-center p-4 text-center font-bold">
+            Your cart is empty.
+          </p>
         ) : (
           <>
             <div className="space-y-4">

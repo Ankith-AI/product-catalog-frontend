@@ -21,7 +21,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="py-4">
-          <h6>
+          <h6 className="px-2">
             Copyright © {new Date().getFullYear()} Ankith-AI | All rights
             reserved.
           </h6>

@@ -1,4 +1,3 @@
-
 import { H1, H2, P } from "@/components/typography/HeadingsTypography";
 
 function Hero() {
@@ -9,8 +8,8 @@ function Hero() {
     >
       <div className="flex max-w-3xl flex-col gap-10">
         <H1 H1="Samsung Galaxy Series" />
-        <H2 H2="Galaxy AI is coming!" />
-        <P P="Unlock limitless potential with Galaxy AI—where innovation meets intelligence. Transforming ideas into reality through cutting-edge AI solutions" />
+        <H2 H2="Unlock limitless potential with Galaxy AI, where innovation meets intelligence." />
+        {/* <P P=" Transforming ideas into reality through cutting-edge AI solutions" /> */}
       </div>
     </div>
   );

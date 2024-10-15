@@ -131,16 +131,16 @@
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Playfair_Display, Source_Code_Pro } from 'next/font/google';
+import { Playfair_Display, Source_Code_Pro } from "next/font/google";
 
 const playfairDisplay = Playfair_Display({
-  subsets: ['latin'],
-  variable: '--font-playfair-display',
+  subsets: ["latin"],
+  variable: "--font-playfair-display",
 });
 
 const sourceCodePro = Source_Code_Pro({
-  subsets: ['latin'],
-  variable: '--font-source-code-pro',
+  subsets: ["latin"],
+  variable: "--font-source-code-pro",
 });
 
 const data = [
@@ -177,13 +177,15 @@ const Slider = () => {
   }, []);
 
   return (
-    <div className={`flex h-[calc(100vh-6rem)] flex-col bg-stone-50 dark:bg-black md:h-[calc(100vh-9rem)] lg:flex-row ${playfairDisplay.variable} ${sourceCodePro.variable}`}>
+    <div
+      className={`flex h-[calc(100vh-6rem)] flex-col bg-white dark:bg-black md:h-[calc(100vh-9rem)] lg:flex-row ${playfairDisplay.variable} ${sourceCodePro.variable}`}
+    >
       {/* TEXT CONTAINER */}
       <div className="flex flex-1 flex-col items-center justify-center gap-8 p-2 font-bold text-black dark:text-white">
-        <h1 className="p-4 text-center text-5xl uppercase md:p-10 md:text-6xl xl:text-7xl font-playfair-display">
+        <h1 className="font-playfair-display p-4 text-center text-5xl uppercase md:p-10 md:text-6xl xl:text-7xl">
           {data[currentSlide].title}
         </h1>
-        <Button className="bg-black text-white hover:bg-black dark:bg-white dark:text-black font-playfair-display">
+        <Button className="font-playfair-display bg-black text-white hover:bg-black dark:bg-white dark:text-black">
           Explore
         </Button>
       </div>
