@@ -10,17 +10,7 @@ This project is a web application interface for a product catalogue, built using
 - **Contact Form**: User-friendly contact form to facilitate user interaction and queries.
 - **Navigation and Footer**: Includes a consistent navigation bar and footer for improved user experience.
 - **Theme Support**: Supports both light and dark themes, adapting based on user preference.
-
-## Components
-
-The following components make up the core structure of the application:
-
-- `Hero`: Displays the main hero banner for the landing page.
-- `Slider`: Interactive slider to highlight products or key visuals.
-- `Featured`: Section to display featured items with emphasis.
-- `ContactForm`: Contact form to collect user inquiries.
-- `NavigationBar`: Navigation bar component for site-wide navigation.
-- `Footer`: Footer component for additional links and information.
+- **User login & Cart Maanagement and Admin Dashboard**: user access, product cart maanagement and checkout. with order history and admin dashboard.
 
 ## Styling
 
